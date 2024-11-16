@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Distance Calculations in Spherical Coordinates</title>
+	</head>
+	<body>
+		<h1>Расчет расстояний в сферической системе координат</h1>
+
+		<form id="distanceForm">
+			<label for="point1"
+				>Введите координаты первой точки (r1, theta1, phi1):</label
+			>
+			<input
+				type="text"
+				id="point1"
+				name="point1"
+				placeholder="r1, theta1, phi1"
+				required
+			/>
+			<br />
+
+			<label for="point2"
+				>Введите координаты второй точки (r2, theta2, phi2):</label
+			>
+			<input
+				type="text"
+				id="point2"
+				name="point2"
+				placeholder="r2, theta2, phi2"
+				required
+			/>
+			<br />
+
+			<button type="submit">Рассчитать расстояние</button>
+		</form>
+
+		<div id="output"></div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
